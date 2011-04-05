@@ -3,7 +3,8 @@ require 'socket'
 Socket.tcp_server_loop(2000) {|sock, client_addrinfo|
   Thread.new {
     begin
-      IO.copy_stream(sock, sock)
+      request = sock.readline
+      p request.to_s
     ensure
       sock.close
     end
