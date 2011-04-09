@@ -1,9 +1,0 @@
-== Socket Fun
-Just a fun learning experience task. The idea is to build multiple basic services with different languages. WHy?
-
-To learn
-
-== RUBY
-A simple Ruby TCP server that can handle a GET request. 
-Also built a small Ruby simple browser to make the request a web page.
-
